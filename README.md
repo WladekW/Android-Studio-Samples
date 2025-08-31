@@ -1,6 +1,6 @@
 # Android Studio Samples
 
-Build, install, and run sample Android projects **without Android Studio**—using the included Gradle Wrapper (`./gradlew`), `adb`, and standard Android SDK command-line tools.
+Build, install, and run sample Android projects **without Android Studio** using the included Gradle Wrapper (`./gradlew`), `adb`, and standard Android SDK command-line tools.
 
 -----
 
