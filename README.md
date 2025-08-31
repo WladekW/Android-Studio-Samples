@@ -2,8 +2,6 @@
 
 Build, install, and run sample Android projects **without Android Studio**—using the included Gradle Wrapper (`./gradlew`), `adb`, and standard Android SDK command-line tools.
 
-This README is generic and fits a typical multi-module Gradle Android samples repository. Replace module names like `app` or `sample1` with the actual module names from your repository.
-
 -----
 
 ## Requirements
