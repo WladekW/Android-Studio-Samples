@@ -24,11 +24,12 @@ export PATH="$ANDROID_SDK_ROOT/platform-tools:$PATH"
 -----
 
 ## Quick Start (Linux / macOS)
+0.  **Clone** required template
 
-1.  **Open terminal** and navigate to the repository root:
+1.  **Open terminal** and navigate to the root directory of the cloned project:
 
     ```bash
-    cd /path/to/Android-Studio-Samples
+    cd /path/to/Template
     ```
 
 2.  **Refresh dependencies**:
@@ -222,16 +223,16 @@ apksigner verify app/build/outputs/apk/release/app-release.apk
 ## Useful Commands (Cheat Sheet)
 
 ```bash
-./gradlew --refresh-dependencies    # refresh dependencies
-./gradlew build                     # full build
-./gradlew assembleDebug             # create debug APK(s)
-./gradlew :module:assembleDebug     # build a specific module
-./gradlew :app:installDebug         # build + install
-adb devices                         # list connected devices
-adb install -r path/to/app-debug.apk# manual install
-adb uninstall com.your.package      # uninstall an app
-./gradlew test                      # run unit tests
-./gradlew connectedAndroidTest      # run instrumented tests
+./gradlew --refresh-dependencies      # refresh dependencies
+./gradlew build                       # full build
+./gradlew assembleDebug               # create debug APK(s)
+./gradlew :module:assembleDebug       # build a specific module
+./gradlew :app:installDebug           # build + install
+adb devices                           # list connected devices
+adb install -r path/to/app-debug.apk  # manual install
+adb uninstall com.your.package        # uninstall an app
+./gradlew test                        # run unit tests
+./gradlew connectedAndroidTest        # run instrumented tests
 ```
 
 -----
